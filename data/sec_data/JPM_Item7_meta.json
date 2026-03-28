@@ -1,0 +1,17 @@
+{
+  "ticker": "JPM",
+  "section_key": "Item 7",
+  "section_label": "MDA",
+  "filing_date": "2026-02-13",
+  "accession_number": "0001628280-26-008131",
+  "source_url": "https://www.sec.gov/Archives/edgar/data/19617/000162828026008131/jpm-20251231.htm",
+  "word_count": 53,
+  "chunk_count": 1,
+  "skipped": false,
+  "error_category": "",
+  "error_detail": "",
+  "text_file": "sec_data\\JPM_Item7.txt",
+  "chunks_dir": "sec_data\\JPM_Item7_chunks",
+  "metadata_file": "sec_data\\JPM_Item7_meta.json",
+  "extracted_at": "2026-03-16T15:40:28Z"
+}

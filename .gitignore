@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+
+# Virtual environments
+.venv/
+venv/
+
+# Environment/secrets
+.env
+
+# OS/editor
+.DS_Store
+.vscode/
+.idea/
+
+# Logs and local run artifacts
+logs/
+*.log
+
+# Local databases and indexes
+chroma_db/
+
+# Notebook checkpoints
+.ipynb_checkpoints/

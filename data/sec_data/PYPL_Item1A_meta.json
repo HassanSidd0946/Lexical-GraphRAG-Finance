@@ -1,0 +1,17 @@
+{
+  "ticker": "PYPL",
+  "section_key": "Item 1A",
+  "section_label": "Risk_Factors",
+  "filing_date": "2026-02-03",
+  "accession_number": "0001633917-26-000024",
+  "source_url": "https://www.sec.gov/Archives/edgar/data/1633917/000163391726000024/pypl-20251231.htm",
+  "word_count": 12942,
+  "chunk_count": 15,
+  "skipped": false,
+  "error_category": "",
+  "error_detail": "",
+  "text_file": "sec_data\\PYPL_Item1A.txt",
+  "chunks_dir": "sec_data\\PYPL_Item1A_chunks",
+  "metadata_file": "sec_data\\PYPL_Item1A_meta.json",
+  "extracted_at": "2026-03-16T15:38:53Z"
+}

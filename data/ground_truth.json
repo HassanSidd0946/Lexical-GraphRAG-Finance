@@ -1,0 +1,364 @@
+[
+  {
+    "id": 1,
+    "query": "What are the principal Legal and Regulatory risks mentioned in JPMorganChase's summary of risk factors?",
+    "type": "direct",
+    "difficulty": "easy",
+    "expected_chunk_ids": [
+      "JPM_Item1A_0000"
+    ]
+  },
+  {
+    "id": 2,
+    "query": "How does the preferred 'single point of entry' strategy under JPMorganChase's resolution plan work?",
+    "type": "direct",
+    "difficulty": "easy",
+    "expected_chunk_ids": [
+      "JPM_Item1A_0006"
+    ]
+  },
+  {
+    "id": 3,
+    "query": "What specific political developments could significantly affect U.S. and global economic growth according to JPMorganChase?",
+    "type": "direct",
+    "difficulty": "easy",
+    "expected_chunk_ids": [
+      "JPM_Item1A_0006",
+      "JPM_Item1A_0007"
+    ]
+  },
+  {
+    "id": 4,
+    "query": "What are the techniques used to attempt to obtain unauthorized or illegal access to systems according to PayPal's cybersecurity risks?",
+    "type": "direct",
+    "difficulty": "easy",
+    "expected_chunk_ids": [
+      "PYPL_Item1A_0000"
+    ]
+  },
+  {
+    "id": 5,
+    "query": "How is PayPal regulated with respect to its virtual currency business in New York?",
+    "type": "direct",
+    "difficulty": "easy",
+    "expected_chunk_ids": [
+      "PYPL_Item1A_0006"
+    ]
+  },
+  {
+    "id": 6,
+    "query": "What does TPV stand for and how is it defined in PayPal's key metrics?",
+    "type": "direct",
+    "difficulty": "easy",
+    "expected_chunk_ids": [
+      "PYPL_Item7_0002"
+    ]
+  },
+  {
+    "id": 7,
+    "query": "What are the components of PayPal's net revenues?",
+    "type": "direct",
+    "difficulty": "easy",
+    "expected_chunk_ids": [
+      "PYPL_Item7_0003"
+    ]
+  },
+  {
+    "id": 8,
+    "query": "What is the potential negative impact of a successful cyber attack on JPMorganChase's clients and customers?",
+    "type": "direct",
+    "difficulty": "easy",
+    "expected_chunk_ids": [
+      "JPM_Item1A_0017",
+      "JPM_Item1A_0018"
+    ]
+  },
+  {
+    "id": 9,
+    "query": "What are the primary reasons for PayPal's 2Q 2025 Plan restructuring?",
+    "type": "direct",
+    "difficulty": "easy",
+    "expected_chunk_ids": [
+      "PYPL_Item7_0010"
+    ]
+  },
+  {
+    "id": 10,
+    "query": "What happens if the bank lacks sufficient cash flow to operate smoothly and meet its daily obligations?",
+    "type": "implicit",
+    "difficulty": "medium",
+    "expected_chunk_ids": [
+      "JPM_Item1A_0013"
+    ]
+  },
+  {
+    "id": 11,
+    "query": "How might global warming and the shift toward greener economies harm the bank's bottom line and borrower health?",
+    "type": "implicit",
+    "difficulty": "medium",
+    "expected_chunk_ids": [
+      "JPM_Item1A_0026"
+    ]
+  },
+  {
+    "id": 12,
+    "query": "Why might a sudden drop in the overall economy or rising prices make it harder for the payment processor to collect the money it loaned out?",
+    "type": "implicit",
+    "difficulty": "medium",
+    "expected_chunk_ids": [
+      "PYPL_Item1A_0013",
+      "PYPL_Item7_0007"
+    ]
+  },
+  {
+    "id": 13,
+    "query": "How does relying on external server hosts and internet vendors create vulnerabilities for the digital wallet company?",
+    "type": "implicit",
+    "difficulty": "medium",
+    "expected_chunk_ids": [
+      "PYPL_Item1A_0002",
+      "PYPL_Item1A_0014"
+    ]
+  },
+  {
+    "id": 14,
+    "query": "What are the dangers if the computer programs and algorithms used to estimate financial scenarios are fundamentally flawed?",
+    "type": "implicit",
+    "difficulty": "medium",
+    "expected_chunk_ids": [
+      "JPM_Item1A_0023"
+    ]
+  },
+  {
+    "id": 15,
+    "query": "How do differing local laws about keeping user data within national borders affect the company's expenses?",
+    "type": "implicit",
+    "difficulty": "medium",
+    "expected_chunk_ids": [
+      "PYPL_Item1A_0017"
+    ]
+  },
+  {
+    "id": 16,
+    "query": "What could occur if the organization fails to attract enough talented workers or loses its top executives?",
+    "type": "implicit",
+    "difficulty": "medium",
+    "expected_chunk_ids": [
+      "JPM_Item1A_0029"
+    ]
+  },
+  {
+    "id": 17,
+    "query": "List the various ways that failures, disruptions, or inadequacies in operational systems and infrastructure can negatively impact JPMorganChase's business.",
+    "type": "aggregation",
+    "difficulty": "hard",
+    "expected_chunk_ids": [
+      "JPM_Item1A_0015",
+      "JPM_Item1A_0016",
+      "JPM_Item1A_0020",
+      "JPM_Item1A_0021"
+    ]
+  },
+  {
+    "id": 18,
+    "query": "Detail the complete range of regulatory and compliance frameworks PayPal must navigate globally, including money transmission, digital assets, and consumer lending.",
+    "type": "aggregation",
+    "difficulty": "hard",
+    "expected_chunk_ids": [
+      "PYPL_Item1A_0003",
+      "PYPL_Item1A_0004",
+      "PYPL_Item1A_0005",
+      "PYPL_Item1A_0006"
+    ]
+  },
+  {
+    "id": 19,
+    "query": "Compile a comprehensive list of how geopolitical tensions, political uncertainty, and hostilities in different countries can disrupt JPMorganChase's global operations.",
+    "type": "aggregation",
+    "difficulty": "hard",
+    "expected_chunk_ids": [
+      "JPM_Item1A_0006",
+      "JPM_Item1A_0007",
+      "JPM_Item1A_0028",
+      "JPM_Item1A_0029"
+    ]
+  },
+  {
+    "id": 20,
+    "query": "Summarize the multiple ways that PayPal calculates, experiences, and provisions for transaction and credit losses across its platform.",
+    "type": "aggregation",
+    "difficulty": "hard",
+    "expected_chunk_ids": [
+      "PYPL_Item7_0005",
+      "PYPL_Item7_0006",
+      "PYPL_Item7_0007",
+      "PYPL_Item7_0017"
+    ]
+  },
+  {
+    "id": 21,
+    "query": "Identify the different types of credit and market risks that JPMorganChase is exposed to during periods of economic stress, including collateral declines and counterparty defaults.",
+    "type": "aggregation",
+    "difficulty": "hard",
+    "expected_chunk_ids": [
+      "JPM_Item1A_0008",
+      "JPM_Item1A_0010",
+      "JPM_Item1A_0011",
+      "JPM_Item1A_0012"
+    ]
+  },
+  {
+    "id": 22,
+    "query": "Enumerate the various factors that influence PayPal's net revenues and transaction expenses, including funding mix and value-added services.",
+    "type": "aggregation",
+    "difficulty": "hard",
+    "expected_chunk_ids": [
+      "PYPL_Item7_0003",
+      "PYPL_Item7_0004",
+      "PYPL_Item7_0005",
+      "PYPL_Item1A_0012"
+    ]
+  },
+  {
+    "id": 23,
+    "query": "What are the different legal, regulatory, and reputational repercussions JPMorganChase might face if it fails to protect personal information, comply with vendors, or manage conflicts of interest?",
+    "type": "aggregation",
+    "difficulty": "hard",
+    "expected_chunk_ids": [
+      "JPM_Item1A_0003",
+      "JPM_Item1A_0020",
+      "JPM_Item1A_0022",
+      "JPM_Item1A_0027"
+    ]
+  },
+  {
+    "id": 24,
+    "query": "Contrast how JPMorganChase and PayPal describe the risks associated with the rapid development and deployment of artificial intelligence in their operations.",
+    "type": "comparative",
+    "difficulty": "hard",
+    "expected_chunk_ids": [
+      "JPM_Item1A_0026",
+      "PYPL_Item1A_0008",
+      "PYPL_Item1A_0009"
+    ]
+  },
+  {
+    "id": 25,
+    "query": "Compare the potential impacts of changing interest rates on JPMorganChase's net interest income versus PayPal's loans receivable and other value-added services.",
+    "type": "comparative",
+    "difficulty": "hard",
+    "expected_chunk_ids": [
+      "JPM_Item1A_0009",
+      "PYPL_Item7_0004",
+      "PYPL_Item1A_0013"
+    ]
+  },
+  {
+    "id": 26,
+    "query": "How do the legal frameworks for resolution and bankruptcy differ between JPMorganChase's 'single point of entry' strategy and the uncertainties surrounding PayPal's custodial cryptocurrency holdings?",
+    "type": "comparative",
+    "difficulty": "hard",
+    "expected_chunk_ids": [
+      "JPM_Item1A_0006",
+      "PYPL_Item1A_0007"
+    ]
+  },
+  {
+    "id": 27,
+    "query": "Contrast the way JPMorganChase evaluates country risk and geopolitical instability in emerging markets with PayPal's challenges regarding cross-border trade and foreign exchange rate fluctuations.",
+    "type": "comparative",
+    "difficulty": "hard",
+    "expected_chunk_ids": [
+      "JPM_Item1A_0028",
+      "PYPL_Item1A_0014",
+      "PYPL_Item7_0001"
+    ]
+  },
+  {
+    "id": 28,
+    "query": "Compare the specific regulatory challenges JPMorgan faces regarding its capital and liquidity thresholds with the regulatory scrutiny PayPal faces over its customer balances and lending licenses.",
+    "type": "comparative",
+    "difficulty": "hard",
+    "expected_chunk_ids": [
+      "JPM_Item1A_0014",
+      "PYPL_Item1A_0013",
+      "PYPL_Item7_0015"
+    ]
+  },
+  {
+    "id": 29,
+    "query": "How do both companies view the risks associated with intense competition from non-traditional financial technology companies and the threat of disintermediation?",
+    "type": "comparative",
+    "difficulty": "hard",
+    "expected_chunk_ids": [
+      "JPM_Item1A_0025",
+      "PYPL_Item1A_0011"
+    ]
+  },
+  {
+    "id": 30,
+    "query": "How does the risk of a third-party vendor experiencing a cybersecurity breach directly connect to the potential for significant fines and mandatory changes to business practices?",
+    "type": "multi_hop",
+    "difficulty": "hard",
+    "expected_chunk_ids": [
+      "PYPL_Item1A_0000",
+      "PYPL_Item1A_0001",
+      "PYPL_Item1A_0014"
+    ]
+  },
+  {
+    "id": 31,
+    "query": "Compare how rising unemployment and high interest rates uniquely threaten the consumer credit and loan portfolios of JPMorganChase and PayPal.",
+    "type": "comparative",
+    "difficulty": "hard",
+    "expected_chunk_ids": [
+      "JPM_Item1A_0008",
+      "JPM_Item1A_0009",
+      "PYPL_Item1A_0013"
+    ]
+  },
+  {
+    "id": 32,
+    "query": "Trace the sequence of events by which a successful ransomware attack on a third-party clearing house (CCP) could ultimately constrain JPMorganChase's liquidity and ability to fund its subsidiaries.",
+    "type": "multi_hop",
+    "difficulty": "hard",
+    "expected_chunk_ids": [
+      "JPM_Item1A_0018",
+      "JPM_Item1A_0016",
+      "JPM_Item1A_0013"
+    ]
+  },
+  {
+    "id": 33,
+    "query": "Contrast the specific regulatory penalties and operational repercussions that JPMorganChase and PayPal face if their third-party vendors fail to safeguard personal customer data.",
+    "type": "comparative",
+    "difficulty": "hard",
+    "expected_chunk_ids": [
+      "JPM_Item1A_0020",
+      "JPM_Item1A_0022",
+      "PYPL_Item1A_0008"
+    ]
+  },
+  {
+    "id": 34,
+    "query": "Explain the causal chain linking the deployment of advanced AI-enabled social engineering threats by malicious actors to the eventual increase in PayPal's reported transaction loss rates.",
+    "type": "multi_hop",
+    "difficulty": "hard",
+    "expected_chunk_ids": [
+      "PYPL_Item1A_0000",
+      "PYPL_Item1A_0015",
+      "PYPL_Item7_0007"
+    ]
+  },
+  {
+    "id": 35,
+    "query": "Compare the structural liquidity constraints of JPMorgan Chase & Co.'s reliance on dividends from its Intermediate Holding Company (IHC) with PayPal's regulatory constraints involving the CSSF's approval to utilize European customer balances.",
+    "type": "comparative",
+    "difficulty": "hard",
+    "expected_chunk_ids": [
+      "JPM_Item1A_0013",
+      "JPM_Item1A_0014",
+      "PYPL_Item7_0015"
+    ]
+  }
+]
