@@ -1,3 +1,4 @@
+[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/AadilUsmani/Lexical_Graph_RAG)
 # Knowledge Graph + GraphRAG for SEC 10-K Analysis
 
 This repository implements an end-to-end research pipeline for financial-document intelligence:
