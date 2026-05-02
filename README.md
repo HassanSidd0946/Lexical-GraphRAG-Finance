@@ -272,8 +272,8 @@ Recommended contribution flow:
 
 Project maintainer details should be finalized here.
 
-- Primary maintainer: `Adil Usmani`
-- Contact: `muhammadaadilusmani@gmail.com`
+- Primary maintainer: `Adil Usmani, Hassan Siddiqui`
+- Contact: `muhammadaadilusmani@gmail.com, hassansiddiqui0946@gmail.com`
 
 If this repository is being used for an academic thesis, replace this section with the official supervisor/student contact details.
 
